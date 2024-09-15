@@ -1,0 +1,65 @@
+/* styles.css */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* Your custom styles here */
+
+body {
+  background: gray;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+.accordian {
+  width: 500px;
+}
+
+.item {
+  background-color: #614101;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  transition: 5s ease-in;
+}
+
+.title {
+  color: #fff;
+  display: flex item center;
+  justify-content: center justify;
+  cursor: pointer;
+}
+
+.content {
+  color: #fff;
+  height: auto;
+  text-align: center;
+  border-top: 2px solid rgb(231, 225, 225);
+}
+
+.title span {
+  margin-top: 15px;
+  display: flex;
+  position: relative;
+  top: -8px;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.enable-btn {
+  border: 2px solid #614101;
+  padding: 5px 10px;
+  color: white;
+  background-color: #614101;
+  border-radius: 10px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
